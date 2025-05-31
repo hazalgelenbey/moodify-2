@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Moodify 🎵</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Moodify 🎵</h1>
+    <p>Bugün nasıl hissediyorsun?</p>
+
+    <div class="mood-buttons">
+      <button data-mood="happy" style="background:#ffe066;">😊 Mutlu</button>
+      <button data-mood="sad" style="background:#a29bfe;">😢 Hüzünlü</button>
+      <button data-mood="neseli" style="background:#ff7675;">💪 Neşeli</button>
+      <button data-mood="calm" style="background:#55efc4;">😌 Rahat</button>
+    </div>
+
+    <div id="player-container"></div>
+
+    <div id="favorites-container">
+      <h2>Favoriler</h2>
+      <div id="favorites-list"><p>Henüz favori eklenmedi.</p></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
