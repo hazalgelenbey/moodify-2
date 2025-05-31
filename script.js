@@ -109,7 +109,5 @@ function renderFavorites() {
     favoritesList.appendChild(div);
   });
 }
-
-
 // Sayfa yüklendiğinde favorileri göster
 renderFavorites();
